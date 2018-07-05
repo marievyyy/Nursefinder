@@ -8,5 +8,5 @@ Settings : https://marievyyy.github.io/Nursefinder/settings <br/>
 Employeer Registration : https://marievyyy.github.io/Nursefinder/supplier-registration
 
 <br/>
-![nursefinder logo](https://github.com/marievyyy/Nursefinder/blob/master/images/NurseFinder%20Logo%20B.jpg?raw=true)
+![nursefinder logo](https://github.com/marievyyy/Nursefinder/blob/master/images/NurseFinder%20Logo%20B.jpg)
 
