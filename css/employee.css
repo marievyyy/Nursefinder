@@ -1,0 +1,84 @@
+.search h4 {
+  color: #480bc7;
+  font-size: 25px;
+}
+
+.search-wrapper {
+  color: #777;
+  margin-top: -1px;
+  -webkit-transition: margin 0.25s ease;
+  transition: margin 0.25s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.search-wrapper input#search {
+  color: #777;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  height: 62px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 45px 0 30px;
+  border: 0;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #480dc8;
+  -webkit-box-shadow: 0 1px 0 0 #480dc8;
+  box-shadow: 0 1px 0 0 #480dc8;
+}
+
+.search-wrapper i.material-icons {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  line-height: 62px;
+  background-color: #480cc8;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+/* employee items */
+.employee-wrapper {
+  padding: 5px 20px !important;
+}
+
+.employee-items {
+  background-color: #fff;
+  border-bottom: 3px solid #eee;
+  padding: 20px 10px;
+}
+
+.employee-img {
+  max-width: 110px;
+}
+
+.employee-items a {
+  cursor: pointer;
+}
+
+.employee-items p {
+  font-size: 14px;
+}
+
+p.employee-name {
+  font-size: 18px;
+  color: #45b4fb;
+}
+
+.employee-history,
+.employee-skills {
+  margin-top: 8px;
+}
+
+.employee-skills p {
+  margin-right: 10px;
+  color: #737373;
+}

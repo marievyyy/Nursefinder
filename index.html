@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NurseFinder </title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/utilities.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/job.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+
+</head>
+
+<body class="bg-light-gray">
+
+    <!-- SIDENAV -->
+    <ul id="nav-mobile" class="sidenav sidenav-fixed" style="transform: translateX(0%);">
+        <li class="logo">
+            <a id="logo-container" href="/" class="brand-logo center">
+                <img src="images/NurseFinder-Logo-white.png" />
+            </a>
+        </li>
+
+        <li>
+            <a href="index.html" class="waves-effect waves-light">Dashboard</a>
+        </li>
+        <li>
+            <a href="" class="waves-effect waves-light">Jobs</a>
+        </li>
+        <li>
+            <a href="" class="waves-effect waves-light">Payments</a>
+        </li>
+        <li>
+            <a href="" class="waves-effect waves-light">Preferrences</a>
+        </li>
+        <li>
+            <a href="profile.html" class="waves-effect waves-light">Profile</a>
+        </li>
+        <li class="on-mobile">
+            <a href="" class="waves-effect waves-light">Messages</a>
+        </li>
+        <li class="on-mobile">
+            <a href="" class="waves-effect waves-light">Notifications</a>
+        </li>
+        <li>
+            <a href="settings.html" class="waves-effect waves-light">Settings</a>
+        </li>
+        <li>
+            <a href="login.html" class="waves-effect waves-light">Logout</a>
+        </li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+    </a>
+    <!-- END OF SIDENAV -->
+
+    <!-- TOP NAV -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">search</i>
+                        <input id="icon_prefix" placeholder="Type to search.." type="text" class="validate">
+                    </div>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="vertical-center">
+                            <img class="nav-icon" src="images/first-aid-kit.png" />
+                            <a href="sass.html">Jobs</a>
+                        </li>
+                        <li class="vertical-center">
+                            <img class="nav-icon" src="images/chat (1).png" />
+                            <a href="badges.html">Messages</a>
+                        </li>
+                        <li class="vertical-center">
+                            <img class="nav-icon" src="images/alarm.png" />
+                            <a href="badges.html">Notifications</a>
+                        </li>
+                        <li class="vertical-center user">
+                            <img class="user-icon" src="images/dummy-person.jpg" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END OF TOP NAV -->
+
+    <main>
+        <div class="container jobsoffer-container mt-45">
+            <div class="row">
+                <div class="col s12 xl3 px-20">
+                    <div class="availability">
+                        <h6 class="center">Availability</h6>
+                        <div class="checkboxes">
+                            <p class="mb-5">
+                                <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Always Available</span>
+                                </label>
+                            </p>
+                            <p class="mb-5">
+                                <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Available Nights</span>
+                                </label>
+                            </p>
+                            <p class="mb-5">
+                                <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Available Days</span>
+                                </label>
+                            </p>
+                            <p class="mb-5">
+                                <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Available Weekends</span>
+                                </label>
+                            </p>
+                            <p class="mb-5">
+                                <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Available Weekdays</span>
+                                </label>
+                            </p>
+                            <button class="btn waves-effect waves-light w-100per mt-10" type="submit" name="action">Custom Availability
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 xl9">
+                    <div class="row">
+                        <div class="col s12 header">
+                            <h4 class="mt-0">Job offers</h4>
+                        </div>
+                        <div class="col s12 offer-list">
+                            <div class="offer-item pos-r mt-20">
+                                <a>
+                                    <p class="title">Job Title</p>
+                                </a>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Position:</span>
+                                    ER Nurse
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Date Required:</span>
+                                    10-5-2018 - 10-6-2018
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">At:</span>
+                                    Pindera Hospital
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Contact:</span>
+                                    Judy 0411111111
+                                </p>
+                                <p class="date right">4 mins ago</p>
+                            </div>
+                            <div class="offer-item pos-r mt-20">
+                                <a>
+                                    <p class="title">Job Title</p>
+                                </a>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Position:</span>
+                                    ER Nurse
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Date Required:</span>
+                                    10-5-2018 - 10-6-2018
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">At:</span>
+                                    Pindera Hospital
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Contact:</span>
+                                    Judy 0411111111
+                                </p>
+                                <p class="date right">4 mins ago</p>
+                            </div>
+                            <div class="offer-item pos-r mt-20">
+                                <a>
+                                    <p class="title">Job Title</p>
+                                </a>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Position:</span>
+                                    ER Nurse
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Date Required:</span>
+                                    10-5-2018 - 10-6-2018
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">At:</span>
+                                    Pindera Hospital
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Contact:</span>
+                                    Judy 0411111111
+                                </p>
+                                <p class="date right">4 mins ago</p>
+                            </div>
+                            <div class="offer-item pos-r mt-20">
+                                <a>
+                                    <p class="title">Job Title</p>
+                                </a>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Position:</span>
+                                    ER Nurse
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Date Required:</span>
+                                    10-5-2018 - 10-6-2018
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">At:</span>
+                                    Pindera Hospital
+                                </p>
+                                <p>
+                                    <span class="fw-500  main-blue lighter">Contact:</span>
+                                    Judy 0411111111
+                                </p>
+                                <p class="date right">4 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/jquery-2.1.1.min.js.js"></script>
+    <script type="text/javascript" src="js/profile-image.js"></script>
+    <script type="text/javascript" src="js/registration.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>

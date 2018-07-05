@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NurseFinder | Registration</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/utilities.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/registration.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="non-member px-20">
+        <div class="nav-wrapper">
+            <a href="login.html" class="brand-logo vertical-center">
+                <img src="images/NurseFinder-Logo-landscape.png" />
+            </a>
+        </div>
+    </nav>
+
+    <!-- REGISTRATION -->
+    <div class="container registration-container my-30 py-30 px-40">
+        <div class="row">
+            <div class="col s12 center">
+                <!-- <div class="line"></div> -->
+                <h1 class="main-blue pos-r mt-0 mb-40">Registration</h1>
+            </div>
+            <form class="col s12">
+
+                <!-- Basic Details -->
+                <div class="row mb-0 profile-image">
+                    <div class="col s6 pos-r flex jc-c">
+                        <div class="circle">
+                            <!-- User Profile Image -->
+                            <img class="profile-pic" src="images/dummy-person.jpg">
+                        </div>
+                        <div class="p-image">
+                            <i class="material-icons upload-button">camera_alt</i>
+                            <input class="file-upload" type="file" accept="image/*" />
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="row">
+                            <div class="col s12">
+                                <h5 class="main-blue lighter">Basic Details</h5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field  col s12">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row mb-0">
+                    <div class="input-field col s12 m6">
+                        <input id="middle_name" type="text" class="validate">
+                        <label for="middle_name">Middle Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row mb-0">
+                    <div class="input-field col s12 m6">
+                        <input id="birth_date" type="text" class="datepicker">
+                        <label for="birth_date">Date of Birth</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="address" type="text" class="validate">
+                        <label for="address">Address</label>
+                    </div>
+                </div>
+
+                <!-- Indentification Check -->
+                <h5 class="main-blue lighter">Indentification Check</h5>
+                <hr class="mt-20 mb-30" />
+                <div class="row mb-0">
+                    <div class="col s12">
+                        <p class="mb-5">
+                            <label>
+                                <input class="with-gap" name="group3" type="radio" checked />
+                                <span>Drivers license</span>
+                            </label>
+                        </p>
+                        <p class="mb-5">
+                            <label>
+                                <input class="with-gap" name="group3" type="radio" />
+                                <span>Passport</span>
+                            </label>
+                        </p>
+                        <p class="mb-5">
+                            <label>
+                                <input class="with-gap" name="group3" type="radio" />
+                                <span>ID Card</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- Qualifications -->
+                <h5 class="main-blue lighter mt-30">Qualifications</h5>
+                <hr class="mt-20 mb-30" />
+                <div class="row mb-0">
+                    <div class="input-field col s2">
+                        <button class="waves-effect waves-light btn">
+                            <i class="material-icons">add</i>
+                        </button>
+                    </div>
+                    <div class="input-field col s12 m5">
+                        <input id="name_qualification" type="text" class="validate">
+                        <label for="name_qualification">Name</label>
+                    </div>
+                    <div class="input-field col s12 m5">
+                        <input id="date_completed" type="text" class="datepicker">
+                        <label for="date_completed">Date Completed</label>
+                    </div>
+                    <div class="file-field input-field col s12 m10 offset-m2">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Drop/Click and upload one or more files">
+                        </div>
+                        <hr class="mt-20" />
+                    </div>
+                </div>
+
+
+                <!-- Employment History -->
+                <h5 class="main-blue lighter mt-30">Employment History</h5>
+                <hr class="mt-20 mb-30" />
+                <div class="row mb-0">
+                    <div class="input-field col s2">
+                        <button class="waves-effect waves-light btn">
+                            <i class="material-icons">add</i>
+                        </button>
+                    </div>
+                    <div class="input-field col s12 m10">
+                        <input id="employer" type="text" class="validate">
+                        <label for="employer">Employer</label>
+                    </div>
+                </div>
+                <div class="row mb-0">
+                    <div class="file-field input-field col s12 m5 offset-m2">
+                        <input id="date_start" type="text" class="datepicker">
+                        <label for="date_start">Date Start</label>
+                    </div>
+                    <div class="file-field input-field col s12 m5">
+                        <input id="date_end" type="text" class="datepicker">
+                        <label for="date_end">Date End</label>
+                    </div>
+                    <div class="col s12 m12 offset-m2">
+                        <p class="mb-10">
+                            <label>
+                                <input type="checkbox" id="on-going" />
+                                <span for="on-going">On going</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="file-field input-field col s12 m10 offset-m2">
+                        <input id="contact_name" type="text">
+                        <label for="contact_name">Employer Contact Name</label>
+                    </div>
+                    <div class="file-field input-field col s12 m5 offset-m2">
+                        <input id="employer_email" type="email" class="validate">
+                        <label for="employer_email">Employer Contact Email</label>
+                    </div>
+                    <div class="file-field input-field col s12 m5">
+                        <input id="employer_phone" type="text">
+                        <label for="employer_phone">Employer Contact Phone</label>
+                    </div>
+                    <div class="col s12 m12 offset-m2">
+                        <p class="mb-10">
+                            <label>
+                                <input type="checkbox" id="contact_employer" />
+                                <span for="contact_employer">May we contact employer to verify history</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <a href="registration-verification.html" class="waves-effect waves-light btn d-block mt-20 w-200 register">Register</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-2.1.1.min.js.js"></script>
+    <script type="text/javascript" src="js/profile-image.js"></script>
+    <script type="text/javascript" src="js/registration.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>

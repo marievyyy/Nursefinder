@@ -1,0 +1,80 @@
+.container.login-container {
+  width: 30%;
+}
+
+.login-container img {
+  max-height: 180px;
+}
+
+.login-container input {
+  background-color: #ffffff14 !important;
+}
+
+.input-field > label {
+  color: #e0dede;
+}
+
+.input-field.col label {
+  left: 1.25rem;
+  line-height: 35px;
+}
+
+.input-field > label:not(.label-icon).active {
+  top: -10px;
+  font-size: 18px;
+}
+
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  color: #fff;
+  border-bottom: 1px solid #e0dede;
+  text-indent: 10px;
+  height: 53px;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #4804c6;
+  -webkit-box-shadow: 0 1px 0 0 #4804c6;
+  box-shadow: 0 1px 0 0 #4804c6;
+}
+
+.login-container a.btn {
+  line-height: 50px;
+  height: 50px;
+}
+
+.login-container .forgotPassword {
+  color: #e0dede;
+}
+
+.login-container a {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.login-container a:hover {
+  border-bottom: 1px solid #d4d4d44f;
+}

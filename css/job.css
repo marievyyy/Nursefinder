@@ -1,0 +1,86 @@
+/* no offer job */
+.jobs-container img {
+  max-height: 200px;
+}
+
+/* Job Offer List */
+.jobsoffer-container {
+  margin-bottom: 80px;
+}
+
+.jobsoffer-container .availability {
+  background-color: #fff;
+  padding: 10px 20px 20px;
+}
+
+/* avilability section */
+
+.availability h6 {
+  color: #45b0f9;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* checkbox */
+.availability label {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
+
+.availability [type="checkbox"].filled-in:checked + span:not(.lever):after {
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4804c6;
+  background-color: #4804c6;
+  z-index: 0;
+  border-radius: 0;
+}
+
+.availability
+  [type="checkbox"].filled-in:not(:checked)
+  + span:not(.lever):after {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #5a5a5a;
+  top: 0px;
+  z-index: 0;
+  border-radius: 0;
+}
+
+.jobsoffer-container .header {
+  border-bottom: 2px solid rgb(70, 80, 220);
+  color: #4809c7;
+}
+
+.jobsoffer-container .offer-list .offer-item {
+  margin: 10px 0 !important;
+  border-bottom: 2px solid #dcdcdc;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+
+.jobsoffer-container .offer-list a {
+  cursor: pointer;
+}
+
+.jobsoffer-container .offer-list p {
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.jobsoffer-container .offer-list p.title {
+  font-size: 18px !important;
+  font-weight: 500;
+  color: #4807c6;
+  text-transform: uppercase;
+}
+
+.jobsoffer-container .offer-list p.date {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 12px;
+  color: #7d7d7d;
+}

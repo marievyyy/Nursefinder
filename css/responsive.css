@@ -1,0 +1,534 @@
+@media only screen and (min-width: 320px) {
+  /* navbar */
+  nav .nav-wrapper a {
+    height: 56px;
+  }
+
+  nav .nav-wrapper a > img {
+    max-height: 35px;
+  }
+
+  nav .sidenav-trigger {
+    margin: 0px;
+  }
+
+  /* top nav */
+  .navbar-fixed {
+    height: 56px;
+    top: 0px;
+    position: fixed;
+  }
+
+  /* login */
+  .container.login-container {
+    width: 100%;
+  }
+
+  /* registration */
+
+  .container.registration-container.my-30.py-30.px-40,
+  .container.employer-container.my-30.py-30.px-40 {
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .container.employer-container.my-30.py-30.px-40 {
+    padding-bottom: 10px !important;
+  }
+
+  .registration-container h1,
+  .employer-container h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .employer-container h1 {
+    margin-top: 30px;
+  }
+
+  .profile-image {
+    display: flex;
+  }
+
+  form {
+    margin-top: 15px;
+  }
+
+  .circle {
+    width: 135px;
+    height: 135px;
+  }
+
+  .p-image {
+    left: 5%;
+  }
+
+  .registration-container form .btn.register {
+    width: 100%;
+  }
+
+  .employer-container form a.btn.register {
+    width: 100%;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 22%;
+    width: 315px;
+  }
+
+  /* main page */
+  .container.jobsoffer-container {
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: -15px !important;
+  }
+
+  .jobsoffer-container .px-20 {
+    padding: 0 !important;
+  }
+
+  .jobsoffer-container .header {
+    margin-top: 25px;
+  }
+
+  .jobsoffer-container .header h4 {
+    font-size: 25px;
+  }
+
+  .jobsoffer-container .offer-list {
+    padding: 0;
+  }
+
+  /* employee search */
+  .container.employee-search-container {
+    margin-top: -30px !important;
+  }
+
+  .container.employee-search-container {
+    width: 100%;
+  }
+
+  .employee-items {
+    padding: 20px 0px;
+  }
+
+  /* profile */
+  .container.profile-container {
+    width: 100%;
+    margin-top: -25px;
+  }
+
+  p.right {
+    float: left !important;
+    margin-top: 10px;
+  }
+
+  .identification p.right {
+    margin-bottom: 10px;
+  }
+
+  /* settings */
+  .container.settings-wrapper {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  .settings-wrapper h4 {
+    margin-bottom: 10px;
+  }
+
+  .settings-wrapper ul.tabs {
+    overflow: hidden;
+  }
+
+  .settings-wrapper .tabs .tab a {
+    color: #45b5fb;
+    font-size: 10px;
+  }
+
+  .settings-wrapper .sms-content {
+    margin-top: 20px;
+    padding-left: 15px !important;
+  }
+
+  .settings-wrapper .verification {
+    padding-left: 0px;
+  }
+
+  .settings-wrapper #password-wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .settings-wrapper .verification .btn,
+  .settings-wrapper #password-wrapper .btn {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  /* login */
+  .container.login-container {
+    width: 90%;
+  }
+
+  /* registration */
+  .p-image {
+    left: 10%;
+  }
+
+  .container.employer-container.my-30.py-30.px-40 {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    padding: 30px 40px !important;
+    width: 90%;
+  }
+
+  /* registration employer */
+  .employer-container h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 17%;
+    width: 365px;
+  }
+
+  /* profile */
+  .container.profile-container {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /* navbar */
+  nav,
+  nav .nav-wrapper i,
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  /* main page */
+  .container.jobsoffer-container {
+    margin-top: 5px !important;
+  }
+
+  /* profile */
+  p.right {
+    float: right !important;
+    margin-top: 10px;
+  }
+
+  /* settings */
+  .container.settings-wrapper {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  /* navbar */
+  nav .nav-wrapper a {
+    height: 70px;
+    line-height: 85px;
+    margin-top: 5px;
+  }
+
+  nav.non-member .nav-wrapper a {
+    margin-top: 0px;
+  }
+
+  nav .nav-wrapper a > img {
+    max-height: 60px;
+  }
+
+  .p-image {
+    left: 29%;
+  }
+
+  a.sidenav-trigger {
+    top: 22px;
+  }
+
+  /* registration employer */
+  .container.employer-container.my-30.py-30.px-40 {
+    margin-top: 10px !important;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 12%;
+  }
+
+  /* main page */
+  .container.jobsoffer-container {
+    width: 90%;
+    margin-top: 5px !important;
+  }
+
+  /* search employee */
+  .container.employee-search-container {
+    margin-top: 0px !important;
+  }
+
+  /* settings */
+  .container.settings-wrapper {
+    width: 90%;
+  }
+
+  .settings-wrapper .tabs .tab a {
+    font-size: 12px;
+  }
+
+  .settings-wrapper .sms-content {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* registration */
+  .container.registration-container.my-30.py-30.px-40 {
+    padding: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 90%;
+    border-radius: 25px;
+    box-shadow: 0 11px 40px 2px rgba(162, 155, 155, 0.28),
+      0 3px 14px 2px rgba(105, 105, 105, 0.08),
+      0 5px 5px -3px rgba(175, 174, 174, 0.2);
+  }
+
+  .container.employer-container.my-30.py-30.px-40 {
+    width: 80%;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 10%;
+  }
+
+  .registration-container form .btn.register {
+    width: 200px;
+  }
+
+  /* login */
+  .container.login-container {
+    width: 60%;
+  }
+
+  /* main page */
+  .container.jobsoffer-container {
+    margin-top: 20px !important;
+  }
+
+  /* search employee */
+  .container.employee-search-container {
+    width: 95%;
+  }
+
+  /* profile */
+  .container.profile-container {
+    width: 90%;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  .navbar-fixed nav,
+  footer {
+    padding-left: 0;
+  }
+
+  nav .nav-wrapper {
+    padding-left: 35px;
+  }
+
+  ul.sidenav li.on-mobile {
+    display: inherit;
+  }
+
+  .sidenav li > a {
+    font-weight: 200;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* sidenav */
+  a.sidenav-trigger {
+    z-index: 987;
+  }
+
+  ul.sidenav li.on-mobile {
+    display: none;
+  }
+
+  /* registration */
+  .container.registration-container.my-30.py-30.px-40 {
+    padding: 20px 40px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  .registration-container h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .p-image {
+    left: 34%;
+  }
+
+  /* registration employer */
+  .employer-container h1 {
+    margin-bottom: 30px;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 8%;
+  }
+
+  /* login */
+  .container.login-container {
+    width: 35%;
+  }
+
+  /* main page */
+  .container.jobsoffer-container {
+    width: 100%;
+  }
+
+  .jobsoffer-container .px-20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .jobsoffer-container .offer-list {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* search employee */
+  .container.employee-search-container {
+    width: 95%;
+  }
+
+  /* profile */
+  .container.profile-container {
+    width: 95%;
+  }
+
+  /* settings */
+  .container.settings-wrapper {
+    margin-top: 20px;
+  }
+
+  .settings-wrapper .tabs .tab a {
+    font-size: 14px;
+  }
+
+  .settings-wrapper .sms-content {
+    padding-left: 30px !important;
+  }
+
+  .settings-wrapper #password-wrapper {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* registration */
+  .container.registration-container.my-30.py-30.px-40 {
+    padding: 30px 40px !important;
+    width: 70%;
+  }
+
+  .container.employer-container.my-30.py-30.px-40 {
+    margin-bottom: 40px !important;
+    margin-top: 30px !important;
+    width: 70%;
+  }
+
+  .employer-container h1 {
+    font-size: 45px;
+  }
+
+  .employer-container form a.btn.register {
+    width: 200px;
+  }
+
+  /* registration verification */
+  .verify-container {
+    margin-top: 7%;
+  }
+
+  /* login */
+  .container.login-container {
+    width: 30%;
+  }
+
+  /* index - job offer */
+  .container.jobsoffer-container {
+    width: 100%;
+  }
+
+  .jobsoffer-container .header {
+    margin-top: 0px;
+  }
+
+  .jobsoffer-container .header h4 {
+    font-size: 2.28rem;
+  }
+
+  .jobsoffer-container .offer-list {
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+
+  /* profile */
+  .container.profile-container {
+    width: 85%;
+  }
+
+  /* search employee */
+  .container.employee-search-container {
+    width: 95%;
+  }
+
+  .container.employee-search-container.mt-45 {
+    margin-top: -5px !important;
+  }
+
+  .employee-items {
+    padding: 20px 10px;
+  }
+
+  /* settings */
+  .container.settings-wrapper {
+    width: 85%;
+  }
+
+  .settings-wrapper .verification .btn {
+    width: 270px;
+  }
+
+  .settings-wrapper #password-wrapper .btn {
+    width: 200px;
+  }
+}

@@ -1,0 +1,106 @@
+.profile-container h4 {
+  border-bottom: 1px solid #4804c6;
+  padding-bottom: 1%;
+  position: relative;
+}
+
+.profile-container h4:before {
+  content: "";
+  width: 280px;
+  height: 15px;
+  background: rgba(71, 104, 228, 0.05);
+  top: 25px;
+  position: absolute;
+}
+
+.profile-container p {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.profile-container p span.verified img {
+  max-width: 25px;
+  position: relative;
+  top: 2px;
+}
+
+.profile-container h6 {
+  color: #4804c6;
+  font-weight: 500;
+}
+
+.profile-container .file-icon img {
+  background-color: #4804c6;
+  padding: 8px 10px;
+  max-width: 42px;
+}
+
+.profile-container .file-icon span {
+  position: relative;
+  top: -12px;
+  margin-left: 10px;
+}
+
+.employment-history h6 {
+  color: #333;
+}
+
+.employment-history ul:not(.browser-default) > li {
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+
+/* checkbox div */
+div.row.understand {
+  padding: 5%;
+  border-top: 2px solid rgba(83, 119, 145, 0.1);
+  margin-top: 5%;
+}
+
+.understand label {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
+
+.understand [type="checkbox"].filled-in:checked + span:not(.lever):after {
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4804c6;
+  background-color: #4804c6;
+  z-index: 0;
+  border-radius: 0;
+}
+
+.understand [type="checkbox"].filled-in:not(:checked) + span:not(.lever):after {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #5a5a5a;
+  top: 0px;
+  z-index: 0;
+  border-radius: 0;
+}
+
+/* profile image */
+.profile-pic {
+  max-width: 120px;
+  max-height: 120px;
+  display: block;
+}
+
+.file-upload {
+  display: none;
+}
+
+.circle {
+  border-radius: 1000px !important;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 8px solid rgb(70, 88, 222);
+}
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+}
